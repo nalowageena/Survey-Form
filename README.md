@@ -11,7 +11,7 @@ A Pen created on CodePen.io. Original URL: https://codepen.io/nalowageena654/pen
 
 This is what my survey form looks like now:
 
-[Survey Form](https://github.com/nalowageena654/Survey-Form/blob/master/images/pic-survey.PNG)
+![Survey Form](https://github.com/nalowageena654/Survey-Form/blob/master/images/pic-survey.PNG)
 
 ## To Do List
 
