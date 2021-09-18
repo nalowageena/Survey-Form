@@ -4,121 +4,146 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Carattere&family=Oswald:wght@200;400&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <!-- user-story 1 -->
-    <h1 id="title">Nalo's Survey Form</h1>
-    <!-- user-story 2 -->
-    <p id="description">Just making my own survey form</p>
-    <!-- user-story 3 -->
-    <form action="" id="survey-form">
-      <!-- user-story 4 -->
-      <label for="name" id="name-label">Name</label>
-      <input type="text" name="name" id="name" placeholder="name" />
-      <!-- user-story 5 -->
-      <label for="email" id="email-label">Email</label>
-      <input type="email" name="email" id="email" placeholder="Email" />
-      <!-- user-story 6: email validation error-->
-      <!-- user-story 7: enter a number id = "number" -->
-      <label for="number" id="number-label">Age</label>
-      <input
-        type="number"
-        name="number"
-        id="number"
-        min="14"
-        max="80"
-        placeholder="Enter your age"
+    <section id="image-content">
+      <img
+        src="./images/cake-resize.png"
+        alt="multilayered chocolate cake with pink cream and strawberry at the top"
+        id="bakery-image"
       />
-      <!-- user-story 8: non-numbers-validation error -->
-      <!-- user-story 9: number out of range defined by min and max -->
-      <!-- user-story 10: labels with corresponding ids -->
-      <!-- user-story 11: placeholders -->
-      <!-- user-story 12: element with dropdown -->
-      <label for="dropdown">What do you like about Nalo's products?</label>
-      <select name="" id="dropdown">
-        <option value="lovely">lovely</option>
-        <option value="smells nice">smells nice</option>
-        <option value="looks nice">looks nice</option>
-        <option value="wonderful">wonderful</option>
-      </select>
-      <!-- radio buttons grouped using name attribute -->
-      <fieldset>
-        <legend>Would you recommend Nalo's products to a friend?</legend>
-        <label for="definitely"
-          ><input
-            type="radio"
-            name="recommend"
-            id="definitely"
-            value="definitely"
-          />Definitely</label
+      <div id="brand">
+        <p id="brand-name">Nalo's Bakery Shop</p>
+      </div>
+    </section>
+
+    <section id="bakery-content">
+      <!-- user-story 1 -->
+      <h1 id="title">Nalo's Survey Form</h1>
+      <!-- user-story 2 -->
+      <p id="description">Just making my own survey form</p>
+      <!-- user-story 3 -->
+      <form action="" id="survey-form">
+        <!-- user-story 4 -->
+        <label for="name" id="name-label">Name</label>
+        <input type="text" name="name" id="name" placeholder=" Enter Your Name" />
+        <!-- user-story 5 -->
+        <label for="email" id="email-label">Email</label>
+        <input type="email" name="email" id="email" placeholder=" Enter Your Email" />
+        <!-- user-story 6: email validation error-->
+        <!-- user-story 7: enter a number id = "number" -->
+        <label for="number" id="number-label">Age</label>
+        <input
+          type="number"
+          name="number"
+          id="number"
+          min="14"
+          max="80"
+          placeholder=" Enter Your Age"
+        />
+        <!-- user-story 8: non-numbers-validation error -->
+        <!-- user-story 9: number out of range defined by min and max -->
+        <!-- user-story 10: labels with corresponding ids -->
+        <!-- user-story 11: placeholders -->
+        <!-- user-story 12: element with dropdown -->
+        <label for="dropdown" id="dropdown-label"
+          >What do you like about Nalo's products?</label
         >
-        <label for="probably">
-          <input
-            type="radio"
-            name="recommend"
-            id="probably"
-            value="probably"
-          />Probably
-        </label>
-      </fieldset>
-      <!-- user-story 14: checkbox must have value attribute  -->
-      <fieldset>
-        <legend>What would you like to see improved?</legend>
-        <label for=""
-          ><input
-            type="checkbox"
-            name="improve"
-            id=""
-            value="Aaaa"
-          />Aaaa</label
+        <select name="" id="dropdown">
+          <option value="lovely">lovely</option>
+          <option value="smells nice">smells nice</option>
+          <option value="looks nice">looks nice</option>
+          <option value="wonderful">wonderful</option>
+        </select>
+        <!-- radio buttons grouped using name attribute -->
+         <label for="radio" id="radio-label">Would you recommend Nalo's products to a friend?</label>
+        <fieldset>
+          <label for="definitely"
+            ><input
+              type="radio"
+              name="recommend"
+              id="definitely"
+              value="definitely"
+            />Definitely</label
+          >
+          <label for="probably">
+            <input
+              type="radio"
+              name="recommend"
+              id="probably"
+              value="probably"
+            />Probably
+          </label>
+        </fieldset>
+        <!-- user-story 14: checkbox must have value attribute  -->
+        <label for="checkbox" id="checkbox-label"
+          >What would you like to see improved?</label
         >
-        <label for=""
-          ><input
-            type="checkbox"
-            name="improve"
-            id=""
-            value="Bbbb"
-          />Bbbb</label
+        <fieldset id="radio">
+          <label for=""
+            ><input
+              type="checkbox"
+              name="improve"
+              id=""
+              value="Aaaa"
+            />Aaaa</label
+          >
+          <label for=""
+            ><input
+              type="checkbox"
+              name="improve"
+              id=""
+              value="Bbbb"
+            />Bbbb</label
+          >
+          <label for=""
+            ><input
+              type="checkbox"
+              name="improve"
+              id=""
+              value="Cccc"
+            />Cccc</label
+          >
+          <label for=""
+            ><input
+              type="checkbox"
+              name="improve"
+              id=""
+              value="Dddd"
+            />Dddd</label
+          >
+          <label for=""
+            ><input
+              type="checkbox"
+              name="improve"
+              id=""
+              value="Eeee"
+            />Eeee</label
+          >
+        </fieldset>
+        <!-- user-story 15: textarea -->
+        <label for="textarea" id="textarea-label"
+          >Any comments or suggestions?</label
         >
-        <label for=""
-          ><input
-            type="checkbox"
-            name="improve"
-            id=""
-            value="Cccc"
-          />Cccc</label
-        >
-        <label for=""
-          ><input
-            type="checkbox"
-            name="improve"
-            id=""
-            value="Dddd"
-          />Dddd</label
-        >
-        <label for=""
-          ><input
-            type="checkbox"
-            name="improve"
-            id=""
-            value="Eeee"
-          />Eeee</label
-        >
-      </fieldset>
-      <!-- user-story 15: textarea -->
-      <label for="textarea">Any comments or suggestions?</label>
-      <textarea
-        name=""
-        id="textarea"
-        cols="30"
-        rows="10"
-        placeholder="Enter your comment here..."
-      ></textarea>
-      <!-- user-story 16: button of id submit -->
-      <button id="submit">Submit</button>
-    </form>
+        <textarea
+          name=""
+          id="textarea"
+          cols="30"
+          rows="10"
+          placeholder="Enter your comment here..."
+        ></textarea>
+        <!-- user-story 16: button of id submit -->
+        <button id="submit">Submit</button>
+      </form>
+    </section>
 
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <script src="/style.css"></script>
   </body>
 </html>

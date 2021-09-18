@@ -1,0 +1,82 @@
+#title,
+#description {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  padding: 0 20%;
+}
+#survey-form {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding: 5% 20% 5% 20%;
+  margin: auto;
+}
+fieldset {
+  display: flex;
+  flex-direction: column;
+  border-color: transparent;
+}
+body {
+  margin: 0;
+  display: flex;
+}
+#bakery-content {
+  margin: auto;
+  font-family: 'Oswald', sans-serif;
+  background-color: #f8d4da;
+  width: 100%;
+}
+#image-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+#brand {
+  background-color: thistle;
+  height: 100%;
+}
+#brand-name {
+  font-family: 'Carattere', cursive;
+  font-weight: 900;
+  font-size: 70px;
+  text-align: center;
+}
+#name-label,
+#email-label,
+#number-label,
+#dropdown-label,
+#checkbox-label,
+#radio-label,
+#textarea-label {
+  padding: 7px 0;
+}
+#name,
+#email,
+#number,
+#dropdown {
+  padding: 7px 0;
+}
+#submit {
+  width: 30%;
+  height: 50px;
+  /* background-color: violet; */
+  margin: 10px 0 10px auto;
+  border-radius: 5px;
+  border-color: rgba(0, 0, 0, 0.4);
+  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.2);
+  background-color: thistle;
+  cursor: pointer;
+}
+#submit :hover{
+  background-color: #d86ad8;
+}
+input[type='radio'],
+input[type='checkbox'] {
+  padding: 25px;
+}
+input[type='text'],
+input[type='email'],
+input[type='number'] {
+  box-shadow: 1px 1px rgba(248, 202, 210, 0.23) inset;
+  border-color: transparent;
+}
