@@ -20,23 +20,42 @@
         id="bakery-image"
       />
       <div id="brand">
-        <p id="brand-name">Nalo's Bakery Shop</p>
+        <p id="brand-name">Nalo's Bakery & Pastry Shop</p>
+        <p id="phrase">We love deliciousness</p>
+        <div id="transparent">
+          <p id="about">
+            Nalo's bakery and pastry brings you your best pastries and bakery
+            products with your favorite flavors to put a smile on your face.
+          </p>
+        </div>
       </div>
     </section>
 
     <section id="bakery-content">
       <!-- user-story 1 -->
-      <h1 id="title">Nalo's Survey Form</h1>
+      <h1 id="title">Nalo's B & P Survey Form</h1>
       <!-- user-story 2 -->
       <p id="description">Just making my own survey form</p>
       <!-- user-story 3 -->
       <form action="" id="survey-form">
         <!-- user-story 4 -->
         <label for="name" id="name-label">Name</label>
-        <input type="text" name="name" id="name" placeholder=" Enter Your Name" />
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder=" Enter Your Name"
+          required
+        />
         <!-- user-story 5 -->
         <label for="email" id="email-label">Email</label>
-        <input type="email" name="email" id="email" placeholder=" Enter Your Email" />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder=" Enter Your Email"
+          required
+        />
         <!-- user-story 6: email validation error-->
         <!-- user-story 7: enter a number id = "number" -->
         <label for="number" id="number-label">Age</label>
@@ -54,17 +73,130 @@
         <!-- user-story 11: placeholders -->
         <!-- user-story 12: element with dropdown -->
         <label for="dropdown" id="dropdown-label"
-          >What do you like about Nalo's products?</label
+          >What is your priority while purchasing a product from Nalo's B&P shop?</label
         >
         <select name="" id="dropdown">
-          <option value="lovely">lovely</option>
-          <option value="smells nice">smells nice</option>
-          <option value="looks nice">looks nice</option>
-          <option value="wonderful">wonderful</option>
+          <option value="Taste">Taste</option>
+          <option value="Price">Price</option>
+          <option value="Freshness">Freshness</option>
+          <option value="Packaging">Packaging</option>
+          <option value="Service">Service</option>
         </select>
+
+        <!-- user-story 14: checkbox must have value attribute  -->
+        <label for="checkbox" id="checkbox-label"
+          >Which product do you purchase regularly at Nalo's B&P shop?</label
+        >
+        <fieldset id="checkbox">
+          <label for=""
+            ><input
+              type="checkbox"
+              name="improve"
+              id=""
+              value="Aaaa"
+            />Cakes</label
+          >
+          <label for=""
+            ><input
+              type="checkbox"
+              name="improve"
+              id=""
+              value="Bbbb"
+            />Bread</label
+          >
+          <label for=""
+            ><input
+              type="checkbox"
+              name="improve"
+              id=""
+              value="Cccc"
+            />Cupcakes</label
+          >
+          <label for=""
+            ><input
+              type="checkbox"
+              name="improve"
+              id=""
+              value="Dddd"
+            />Macarons</label
+          >
+          <label for=""
+            ><input
+              type="checkbox"
+              name="improve"
+              id=""
+              value="Eeee"
+            />Pie</label
+          >
+          <label for=""
+            ><input
+              type="checkbox"
+              name="improve"
+              id=""
+              value="Ffff"
+            />Muffins</label
+          >
+          <label for=""
+            ><input
+              type="checkbox"
+              name="improve"
+              id=""
+              value="Gggg"
+            />Cookies</label
+          >
+        </fieldset>
+
+        <label for="checkbox1" id="checkbox-label"
+          >Which flavors do you prefer?</label
+        >
+        <fieldset id="checkbox1">
+          <label for=""
+            ><input
+              type="checkbox"
+              name="c"
+              id=""
+              value="chocolate"
+            />Chocolate</label
+          >
+          <label for=""
+            ><input
+              type="checkbox"
+              name="flavors"
+              id=""
+              value="Vanilla"
+            />Vanilla</label
+          >
+          <label for=""
+            ><input
+              type="checkbox"
+              name="flavors"
+              id=""
+              value="pineapple"
+            />Pineapple</label
+          >
+          <label for=""
+            ><input
+              type="checkbox"
+              name="flavors"
+              id=""
+              value="fruit and nut"
+            />Fruit and nut</label
+          >
+          <label for=""
+            ><input
+              type="checkbox"
+              name="flavors"
+              id=""
+              value="other"
+            />Other</label
+          >
+        </fieldset>
+
         <!-- radio buttons grouped using name attribute -->
-         <label for="radio" id="radio-label">Would you recommend Nalo's products to a friend?</label>
-        <fieldset>
+        <label for="radio" id="radio-label"
+          >Would you recommend Nalo's products to a friend?</label
+        >
+        <fieldset id="radio">
           <label for="definitely"
             ><input
               type="radio"
@@ -81,53 +213,16 @@
               value="probably"
             />Probably
           </label>
+          <label for="probably">
+            <input
+              type="radio"
+              name="recommend"
+              id="definitely-not"
+              value="definitely-not"
+            />Definitely not
+          </label>
         </fieldset>
-        <!-- user-story 14: checkbox must have value attribute  -->
-        <label for="checkbox" id="checkbox-label"
-          >What would you like to see improved?</label
-        >
-        <fieldset id="radio">
-          <label for=""
-            ><input
-              type="checkbox"
-              name="improve"
-              id=""
-              value="Aaaa"
-            />Aaaa</label
-          >
-          <label for=""
-            ><input
-              type="checkbox"
-              name="improve"
-              id=""
-              value="Bbbb"
-            />Bbbb</label
-          >
-          <label for=""
-            ><input
-              type="checkbox"
-              name="improve"
-              id=""
-              value="Cccc"
-            />Cccc</label
-          >
-          <label for=""
-            ><input
-              type="checkbox"
-              name="improve"
-              id=""
-              value="Dddd"
-            />Dddd</label
-          >
-          <label for=""
-            ><input
-              type="checkbox"
-              name="improve"
-              id=""
-              value="Eeee"
-            />Eeee</label
-          >
-        </fieldset>
+
         <!-- user-story 15: textarea -->
         <label for="textarea" id="textarea-label"
           >Any comments or suggestions?</label
