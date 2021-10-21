@@ -13,9 +13,12 @@ This is what my survey form looks like now:
 
 ![Survey Form](https://github.com/nalowageena654/Survey-Form/blob/master/images/pic-survey.PNG)
 
-## To Do List
+## Done
 
 - Finish with the last two user stories for the survey form challenge:
   - If I do not enter my name in the name field, I should see an HTML validation error.
   - if I do not enter my email in the email field, I should see an HTML validation error.
 - Make the image in the form and the form as a whole responsive.
+
+## To do
+- Add a media query to make the page responsive.
